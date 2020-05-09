@@ -1,0 +1,254 @@
+body{
+    overflow: auto;
+    font-family: aRIAL, Helvetica, sans-serif;
+}
+H1,H2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ span{
+    color: yellowgreen;
+} 
+
+#header-top{
+    background-color: royalblue;
+    
+}
+.contactlinks,.donationlinks{
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
+    
+}
+ a{
+    text-decoration: none;
+} 
+
+.divht{
+    display: inline-block;
+    
+}
+li {
+    display: inline;    
+}
+
+
+#navbarDropdownMenuLink:hover,#media:hover,#news:hover{
+    background-color: royalblue;
+    border-radius: 25px;
+}
+#home{
+    border-radius: 25px;
+    background-color: royalblue;
+    outline: none;
+    border: none;
+}
+
+.dropdown-menu a:hover {
+    background-color:royalblue;
+  }
+
+
+#fieldsetS{
+    margin-left: 30px; 
+    height: 2em;
+    width: max-content; 
+    background-color: royalblue;
+    color: white;
+    font-size: 15px;
+    font-family: inherit;
+}
+@media only screen and (max-width: 600px){
+    #fieldsetS{
+        margin-left: 15px;
+        width:450px;
+        height: 1.5rem;
+        overflow: hidden;
+    }
+}   
+
+main{
+    text-align: center;
+}
+#para{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: inherit;
+}
+#contain0{
+    background-color: royalblue;
+    font-size: large;
+    color: white;
+    margin-top: 50px;
+
+}
+em{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+.mon{
+    display: inline-block;
+    padding: 35px;
+}   
+.contain{
+    margin-left: 10em;
+    
+}
+nav1{
+    padding-left: 100px;
+    
+}
+.box{
+    width: 340px;
+    height: 150px;
+    padding: 10px;
+    margin: 20px 0px 40px 70px;
+    float:left;
+    box-shadow: 5px 5px 5px  1.0px gray;
+    display: inline-block;
+    font-weight: bold;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#misback{
+    clear: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.miss{
+    clear: left;
+    overflow: auto;
+    display: inline-block;
+    width: 800px;
+
+}
+ .fieldset{
+    ;
+    clear: left;   
+    padding: 10px;
+    width: 40%;
+    margin: 5PX;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: royalblue;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}   
+#hepatittus{
+    padding-left: 4em;
+    background-image: url(Images/Hepatitis.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    
+    
+} 
+#housing{
+    padding-left: 4em;
+    background-image: url(Images/housing.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+#it{
+    padding-left: 4em;
+    background-image: url(Images/IT.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+#thar{
+    padding-left: 4em;
+    background-image: url(Images/tharparkar.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-color: whitesmoke
+} 
+img{
+    padding: 1px; 
+}
+.upeven{
+    clear: left;
+    overflow: hidden; 
+    width: 25%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 400px){
+    .upeven{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
+}   
+
+#imgglry{
+    clear: both;
+    overflow: auto;
+    display: inline-block;
+}
+
+footer{
+    margin-top: 100px;
+
+}
+.footcontainer{
+
+    background-color: rgb(78, 73, 73);
+    color: white;
+    overflow: auto;
+    width: 100%; 
+    height: 300px;
+
+}
+.con1{
+    color: silver;
+    display: inline-block;
+    width: 35%;
+    margin: 10px;
+    padding: 30px;
+    overflow: auto;
+    float: left;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ft{
+    list-style-type: none;
+    display: block;
+}
+
+.con2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 10%;
+    margin: 10px;
+    padding: 25px;
+    float: left;
+}.con3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 30px;
+    float: left;
+}
+
+#footerDiv{
+    clear: both;
+    background-color: royalblue; 
+    padding: 10px;
+    max-width: 100%;
+    overflow: hidden;
+}
